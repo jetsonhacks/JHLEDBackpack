@@ -6,8 +6,10 @@ from a NVIDIA Jetson TK1.
 http://www.adafruit.com/products/880
 
 MIT License
+
 Copyright (c) 2015 JetsonHacks
-Portions Adafruit Industries
+
+Copyright (c) 2012  Adafruit Industries
 
 Derived from the Adafruit LED Backpack Library at:
 
