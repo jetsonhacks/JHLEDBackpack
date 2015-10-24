@@ -3,6 +3,8 @@
 A library to drive the Adafruit 0.56" 4-Digit 7-Segment Display w/I2C Backpack
 from a NVIDIA Jetson TK1.
 
+http://www.adafruit.com/products/880
+
 MIT License
 Copyright (c) 2015 JetsonHacks
 Portions Adafruit Industries
@@ -16,7 +18,9 @@ Redistribution code attribution from Adafruit:
   This is a library for our I2C LED Backpacks
 
   Designed specifically to work with the Adafruit LED Matrix backpacks
+
   ----> http://www.adafruit.com/products/
+
   ----> http://www.adafruit.com/products/
 
   These displays use I2C to communicate, 2 pins are required to
