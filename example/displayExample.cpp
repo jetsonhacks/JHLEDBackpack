@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
 
-Copyright (c) 2015 Jetsonhacks
+Copyright (c) 2015-2018 Jetsonhacks
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -56,11 +56,13 @@ int getkey() {
 
 int main() {
     HT16K33 *displayMatrix = new HT16K33() ;
+    // Default I2C Bus 1
     int err = displayMatrix->openHT16K33();
     if (err < 0){
         printf("Error: %d", displayMatrix->error);
     } else {
         printf("HT16K33 Device Address: 0x%02X\n",displayMatrix->kI2CAddress) ;
+        printf("HT16K33 Device Bus: 0x%02X\n",displayMatrix->kI2CBus) ;
         displayMatrix->begin() ;
         displayMatrix->clear() ;
 
