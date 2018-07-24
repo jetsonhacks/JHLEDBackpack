@@ -10,7 +10,7 @@ To run the example:
 First load the prerequisites:
 
 <blockquote>
-$ sudo sudo apt-get install libi2c-dev i2c-tools</blockquote>
+$ sudo apt-get install libi2c-dev i2c-tools</blockquote>
 
 Then switch over to the JHLEDBackpack/example directory, then:
 
