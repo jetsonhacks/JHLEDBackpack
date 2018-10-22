@@ -5,7 +5,7 @@ from a NVIDIA Jetson Development Kit. Includes a simple example.
 
 http://www.adafruit.com/products/880
 
-<em><strong>Note:</strong> For earlier version compatible with L4T 27.X and 28.X, please see the 'Tags' section. These version are marked as version 1.X of this repository. This marks the start of version 2.X for L4T 31.X. Each Jetson Development Kit has its own definition of pins and I2C busses, please see <a href="https://www.jetsonhacks.com/" title="JetsonHacks"> 'Pinouts' for more information.</em>
+<em><strong>Note:</strong> For earlier version compatible with L4T 27.X and 28.X, please see the 'Tags' section. Those version are marked as version 1.X of this repository. This marks the start of version 2.X for L4T 31.X. Each Jetson Development Kit has its own definition of pins and I2C busses, please see <a href="https://wp.me/P7ZgI9-123" title="JetsonHacks" target="_blank">JetsonHacks Jetson Pinout Links</a> for more information.</em>
 
 <h3>Example</h3>
 To run the example:
