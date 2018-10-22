@@ -64,7 +64,9 @@ Running the example, the Display will show a blinking set of dashes, a hexadecim
 
 <h2>Releases</h2>
 <h3>Version 2.0 - October, 2018</h3>
-* Add support for L4T 31.X
+<ul>
+  <li>Add support for L4T 31.X</li>
+</ul>
 
 <h3>Version 1.1 - July, 2018</h3>
 Update Readme with better information
