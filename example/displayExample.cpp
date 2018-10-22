@@ -57,6 +57,8 @@ int getkey() {
 int main() {
     HT16K33 *displayMatrix = new HT16K33() ;
     // Default I2C Bus 1
+    // Bus 8 for Xavier Expander Header pins 3,5
+    displayMatrix->kI2CBus = 8;
     int err = displayMatrix->openHT16K33();
     if (err < 0){
         printf("Error: %d", displayMatrix->error);

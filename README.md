@@ -5,6 +5,9 @@ from a NVIDIA Jetson Development Kit. Includes a simple example.
 
 http://www.adafruit.com/products/880
 
+<em><strong>Note:</strong> For earlier version compatible with L4T 27.X and 28.X, please see the 'Tags' section. These version are marked as version 1.X of this repository. This marks the start of version 2.X for L4T 31.X. Each Jetson Development Kit has its own definition of pins and I2C busses, please see <a href="https://www.jetsonhacks.com/" title="JetsonHacks"> 'Pinouts' for more information.</em>
+
+<h3>Example</h3>
 To run the example:
 
 First load the prerequisites:
@@ -19,12 +22,14 @@ $ make
   
 $ sudo ./displayExample</blockquote>
 
-By default, the example runs on I2C Bus 1. To change to a different I2C bus (e.g. Bus 0), change displayExample.cpp:
+By default, the example runs on I2C Bus 8. This equates to Expansion Header pins 3 and 5 on the NVIDIA Jetson AGX Xavier Developer Kit.
+
+To change to a different I2C bus (e.g. Bus 0), change displayExample.cpp:
 
 <blockquote>
 HT16K33 *displayMatrix = new HT16K33() ;
   
-// Add the following line
+// Change the following line
 
 displayMatrix->kI2CBus = 0; // Use I2C bus 0 
 
@@ -58,6 +63,9 @@ $ sudo i2cdetect -y -r 1
 Running the example, the Display will show a blinking set of dashes, a hexadecimal display, a floating point number display, a count down timer and a clock example. Hit the ‘Esc’ key during the clock example to stop.
 
 <h2>Releases</h2>
+<h3>Version 2.0 - October, 2018</h3>
+* Add support for L4T 31.X
+
 <h3>Version 1.1 - July, 2018</h3>
 Update Readme with better information
 

@@ -1,2 +1,2 @@
 all:
-	g++ displayExample.cpp ../src/JHLEDBackpack.cpp -I../src -o displayExample
+	g++ displayExample.cpp ../src/JHLEDBackpack.cpp -I../src -li2c -o displayExample

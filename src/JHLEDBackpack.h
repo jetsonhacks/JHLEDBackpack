@@ -21,13 +21,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
 */
 
 #ifndef _JHHT16K33_H
 #define _JHHT16K33_H
 
 #include <cstddef>
+extern "C" {
+ #include <i2c/smbus.h>
+}
 #include <linux/i2c-dev.h>
 #include <sys/ioctl.h>
 #include <cstdlib>
